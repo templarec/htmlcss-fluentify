@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 .row:after {
@@ -14,4 +14,50 @@
 }
 header {
   background-color: #0C325A;
+  padding-top: 10px;
+}
+div.logo {
+
+  display: inline-block;
+  border: 1px solid green;
+}
+.logo img {
+  width: 80px;
+  vertical-align: sub;
+}
+.links {
+
+  width: 88%;
+  padding-left: 5px;
+  display: inline-block;
+  border: 1px solid orange;
+  vertical-align: middle;
+}
+nav {
+  height: 60px;
+  border: 2px solid red;
+  line-height: 50px;
+}
+nav ul {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  border: 1px solid yellow;
+}
+nav ul li {
+  font-size: 8px;
+  display: inline-block;
+  }
+.login {
+  float: right;
+  border: 1px solid cyan;
+}
+.btn {
+  line-height: 25px;
+  height: 25px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 5px;
 }
