@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Yantramanav', sans-serif;
 }
-/* nav, .links, .logo {
+/* main, .jumbo, .jumbo-text, .jumbo .container {
   border: 1px solid #fff;
+} */
+ /* .jumbo-footer div{
+  border: 1px solid #f00;
 } */
 .container {
   width: 80%;
@@ -25,15 +29,15 @@ div.logo {
 }
 .logo img {
   padding-top: 1px;
-  width: 80px;
+  width: 100%;
   display: inline;
 }
 .links {
   float: left;
-  width: 88%;
+  width: 90%;
   padding-left: 5px;
   display: inline-block;
-  margin-top: 7px;
+  line-height: 48px;
 }
 nav {
   height: 50px;
@@ -44,7 +48,7 @@ nav ul {
   text-transform: uppercase;
 }
 nav ul li {
-  font-size: 8px;
+  font-size: 1em;
   display: inline-block;
 }
 .login {
@@ -56,8 +60,7 @@ nav ul li {
   height: 25px;
   border-radius: 5px;
   text-align: center;
-  vertical-align: middle;
-  padding: 0 5px;
+  padding: 5px 8px;
   text-transform: uppercase;
 }
 .border {
@@ -66,29 +69,37 @@ nav ul li {
 .highlight {
   background-color: #7CBB02;
 }
+
 .jumbo {
   background-image: url('../img/background-header.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: right;
-  height: calc(100vh - 110px);
+  background-position: bottom right;
+  height: calc(100vh - 180px);
   color: #fff;
   position: relative;
 }
 .jumbo-text{
   width: 40%;
   position: absolute;
-  top: 30%;
+  top: 50%;
+  font-size: 40px;
 
 }
 .jumbo-text > div {
   margin-top: 20px;
-  font-size: 10px;
+  font-size: 20px;
   display: inline-block;
 }
 .jumbo-footer {
   text-align: center;
   background-color: #D3D3D3;
-  height: calc(100vh - (100vh - 50px));
+  height: 120px;
+  /* line-height: calc(120px / 2); */
+  font-size: 20px;
+}
+.jumbo-footer div:first-child {
+  padding-top: 25px;
+  font-size: 25px;
 
 }
