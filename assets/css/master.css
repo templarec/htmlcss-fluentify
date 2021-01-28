@@ -36,6 +36,22 @@ div [class^="col-"]{
 .col-50 {
   width: 50%;
 }
+.help-menu {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+
+}
+.help-menu span {
+  position: absolute;
+  bottom: 0;
+  right: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
 header {
   background-color: #0C325A;
   padding-top: 10px;
