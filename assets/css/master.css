@@ -1,21 +1,11 @@
+/* Settings iniziali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Yantramanav', sans-serif;
 }
-/* footer, .footer-tools, .footer-text, .row .container {
-  border: 1px solid #000;
-} */
-/* .col-33, .content-image, .content-text, .row .container {
-  border: 1px solid #000;
-} */
-/* .col-50, .graph-image, .graph-text, .row .container {
-  border: 1px solid #000;
-} */
- /* .jumbo-footer div{
-  border: 1px solid #f00;
-} */
+/* classi clear fix e container globali */
 .container {
   width: 80%;
   margin: 0 auto;
@@ -25,6 +15,7 @@
   content: "";
   clear: both;
 }
+/* utility per colonne */
 div [class^="col-"]{
   float: left;
   padding: 10px;
@@ -36,6 +27,7 @@ div [class^="col-"]{
 .col-50 {
   width: 50%;
 }
+/* sezione menu help */
 .help-menu {
   position: fixed;
   height: 100vh;
@@ -47,11 +39,13 @@ div [class^="col-"]{
   position: absolute;
   bottom: 0;
   right: 300px;
+  color: #fff;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+/* sezione header */
 header {
   background-color: #0C325A;
   padding-top: 10px;
@@ -72,6 +66,7 @@ div.logo {
   display: inline-block;
   line-height: 48px;
 }
+/* sezione navbar */
 nav {
   height: 50px;
 }
@@ -88,6 +83,7 @@ nav ul li{
 .login {
   float: right;
 }
+/* classi per bottoni */
 .btn {
   border: 1px solid #0C325A;
   line-height: 25px;
@@ -106,7 +102,7 @@ nav ul li{
   background-color: #7CBB02;
   border: 1px solid #7CBB02;
 }
-
+/* sezione jumbo */
 .jumbo {
   background-image: url('../img/background-header.png');
   background-repeat: no-repeat;
@@ -143,6 +139,7 @@ nav ul li{
   font-size: 25px;
 
 }
+/* sezione main */
 .content-image {
   display: inline-block;
 }
@@ -180,6 +177,7 @@ nav ul li{
 .graph-text p:nth-child(2) {
   color: #808080;
 }
+/* sezione footer */
 footer {
   padding-top: 50px;
   height: 130px;
@@ -189,6 +187,7 @@ footer ul li {
   font-size: 1em;
   display: inline-block;
 }
+/* utility padding e margin */
 .pl-10 {
   padding-left: 10px;
 }
