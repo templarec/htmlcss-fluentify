@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: 'Yantramanav', sans-serif;
 }
+nav a {
+  color: inherit;
+  text-decoration: inherit;
+}
 /* classi clear fix e container globali */
 .container {
   width: 80%;
@@ -30,10 +34,10 @@ div [class^="col-"]{
 /* sezione menu help */
 .help-menu {
   position: fixed;
-  height: 100vh;
+  bottom: 0;
+  height: 37px;
   width: 100vw;
   z-index: 1;
-
 }
 .help-menu span {
   position: absolute;
