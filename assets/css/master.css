@@ -35,7 +35,7 @@ div.logo {
 .links {
   float: left;
   width: 90%;
-  padding-left: 20px;
+  padding-left: 80px;
   display: inline-block;
   line-height: 48px;
 }
@@ -64,19 +64,21 @@ nav ul li {
   text-align: center;
   padding: 5px 8px;
   text-transform: uppercase;
+  margin-left: 10px;
 }
 .border {
   border: 1px solid #fff;
 }
 .highlight {
   background-color: #7CBB02;
+  border: 1px solid #7CBB02;
 }
 
 .jumbo {
   background-image: url('../img/background-header.png');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom right;
+  background-size: 75%;
+  background-position: 110% 100%;
   height: calc(100vh - 180px);
   color: #fff;
   position: relative;
@@ -84,8 +86,8 @@ nav ul li {
 .jumbo-text{
   width: 40%;
   position: absolute;
-  top: 50%;
-  font-size: 40px;
+  top: 45%;
+  font-size: 45px;
 
 }
 .jumbo-text > div {
